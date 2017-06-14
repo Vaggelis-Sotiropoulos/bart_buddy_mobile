@@ -9,7 +9,7 @@ var ByteBuffer = require('bytebuffer');
 const db = require('knex')(require('../../knexfile.js')); //change knexfile location accordingly
 const config = require('config');
 const env = require('dotenv').config();
-
+const fetch = require('node-fetch');
 
 router.route('/')
     .get((req, res) => {
@@ -20,7 +20,7 @@ router.route('/')
       console.log('in the correct route');
       console.log(req.body);
       res.status(201).send({
-          data: 'Posted!'
+        data: 'Posted!'
       });
     });
 
@@ -166,7 +166,7 @@ router.route('/getgtfs')
 
           var tempChanged = [];
           var tempPromises = [];
-         // db.select().table('gtfs_schedule').where({'trip_id': '41DC11', 'stop_sequence': 5}).then((result) => {console.log(result)});
+          // db.select().table('gtfs_schedule').where({'trip_id': '41DC11', 'stop_sequence': 5}).then((result) => {console.log(result)});
 
           for (var v = 0; v < someArr.length; v++) {
             for (var key in someArr[v]) {
