@@ -2,6 +2,9 @@
 
 A mobile client to interface with the bart_buddy server.
 
+![Bart Buddy screenshot](https://github.com/thewizards/bart_buddy_mobile/blob/master/bart-buddy-demo.gif "Screenshot")
+
+
 ## Team
 
 - Jonathon Bradshaw 
