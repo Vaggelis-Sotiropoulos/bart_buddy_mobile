@@ -1,6 +1,6 @@
 # bart_buddy_mobile
 
-A mobile client to interface with the bart_buddy server.
+A mobile client to interface with the bart_buddy GTFS server. This application takes real time train data and displays the BART trains in real time, texts users about delays and displays schedules for given routes. 
 
 ## Team
 
@@ -21,7 +21,8 @@ Bart-buddy is a new and exciting technology that allows users to see and plan th
 - react-native-maps ^0.15.2
 - react-native-menu ^0.21.
 
-## Installation 
+## Maps and React Native 
+To render the trains on the map we use the real-time data provided by BART (GTFS: General Transit Feed Service). While connecting to this streaming data we were able to render trains in real time, as well as notfying any users of delays. 
 
 This project requires several steps to load, you must be running node 6.10.0 or earlier, asnd Xcode 7.8.0 or later.
 
@@ -54,3 +55,4 @@ You must then open  bart_buddy_mobile.xcworkspace
 
 8.) react-native run-ios
  
+
