@@ -2,6 +2,9 @@
 
 A mobile client to interface with the bart_buddy GTFS server. This application takes real time train data and displays the BART trains in real time, texts users about delays and displays schedules for given routes. 
 
+![Bart Buddy screenshot](https://github.com/thewizards/bart_buddy_mobile/blob/master/bart-buddy-demo.gif "Screenshot")
+
+
 ## Team
 
 - Jonathon Bradshaw 
